@@ -1,3 +1,4 @@
+import Home from "./Components/Home"
 import Todoapp from "./Components/Todoapp"
 
 
@@ -6,6 +7,8 @@ const App = () => {
     <div>
 
       <Todoapp/>
+
+      <Home/>
     </div>
   )
 }
